@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+div.container{
+    margin:10px 40px;
+}
+.conatiner{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    align-items: center;
+}
+.fill-remaining-space{
+    flex: 3 3 auto;
+    text-align: center;
+    align-content: center;
+    border-radius: 33px;
+
+}
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+
+}
+  
+.controls-container{
+    width : 50%;
+    padding : 5%;
+    box-sizing: border-box;
+    box-shadow: palegreen;
+}
+.controls-container > * {
+
+    box-sizing: border-box ;
+    width : 100%;
+}
+.add-bottom-padding{
+    padding: 5px;
+}
+
+  .mat-radio-group .mat-radio-button{
+      margin-left: 5px;
+  }
+
+  .button-row button{
+      margin : 5px;
+      border-radius: 33px;
+  }
+  .normal-form {
+      height: 100%;
+      border-radius: 100px;
+      border-width: 100px;
+      text-align: center;
+      padding: auto;
+      
+
+    }
+    body{
+        background-color: bisque;
+    }
+  table , td , th{
+      border: 1px solid black;
+  }
